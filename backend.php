@@ -1,6 +1,6 @@
 <?php
-$usuario = "admin";
-$password = "123456";
+$usuario = "";
+$password = "";
 $user = $_POST['user'];
 $contra = $_POST['contra'];
 if($user === $usuario && $contra === $password){
